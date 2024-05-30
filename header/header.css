@@ -7,8 +7,8 @@
 }
 
 .titulo{
-    background-color: orangered;
-    color: white;
+    background-color: #37c125;
+        color: white;
     padding: 0.8rem 0.3rem;
     border-bottom: 100%;
 
@@ -16,7 +16,7 @@
 
 .btn-github{
     text-decoration: none;
-    background-color: rgb(7, 5, 31);
+    background-color: rgb(40, 25, 210);
     color: white;
     font-weight: 600;
     padding: 0.5rem 2rem;

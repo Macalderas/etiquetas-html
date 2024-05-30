@@ -1,32 +1,48 @@
-.footer {
+
+footer {
+    background-color: #37c125;
+    color: #fff;
+    padding: 20px 0;
+    height: 7rem;
+}
+
+.footer-content {
     display: flex;
-    height: 80px;
-    width: 10px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #343a40;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
-.footer img {
-    height: 80px; /* Ajusta el tamaño de la imagen */
-    border-radius: 10px; /* Opcional: redondear los bordes de la imagen */
+
+.logo img {
+    max-width: 100px;
+    height: 100px;
 }
-.footer .link-list {
-    list-style-type: none; /* Quita los puntos de la lista */
+
+.redes-sociales {
+    display: flex;
+  }
+  
+  .icono-red-social {
+    color: #000; 
+    font-size: 24px; 
+    margin-right: 40px; 
+  }
+  
+
+.colaboradores {
+    max-width: 400px;
+    text-align: left;
+}
+
+.colaboradores h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.colaboradores ul {
     padding: 0;
-    margin: 0;
+    font-size: 12px;
 }
-.footer .link-list li {
-    margin: 5px 0;
-}
-.footer .link-list li a {
-    color: white;
-    text-decoration: none;
-}
-.footer .link-list li a:hover {
-    text-decoration: underline;
-}
+
