@@ -1,3 +1,8 @@
-let header_DOM = document.querySelector(".header");
+let header=document.querySelector(".header");
+header.innerHTML=`
 
-header_DOM.innerHTML =  `hola yo soy header`;
+<h1 class="titulo">Gramatica html <span>Git</span></h1>
+     <a href="https://github.com/Macalderas/etiquetas-html.git" class="btn-github">github</a>
+     
+
+`;
